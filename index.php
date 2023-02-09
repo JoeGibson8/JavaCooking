@@ -5,6 +5,6 @@
 	</head>
 <body>
 <html>
-	<div id="kitchenBackground">
+	<div id='kitchenBackground'>
 	</div>
 </html>
