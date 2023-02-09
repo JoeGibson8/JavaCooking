@@ -6,6 +6,6 @@
 <body>
 <html>
 	<div id='kitchenBackground'>
-		<img src="kitchen.png" alt="Kitchen">
+		<img src="kitchen.jpg" alt="Kitchen">
 	</div>
 </html>
