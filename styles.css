@@ -1,10 +1,83 @@
+/*Header CSS Styling*/
 #kitchenBackground{
    background-image: url("kitchen.jpg");
-   height:250px;
-   width:100lvw;
-   margin:13% 0px;
+   height:17.5%;
+   width:100%;
    background-position: center;
+   min-height:150px;
 }
+#logoBar{
+   width:100%;
+   margin:0px 0px 15px 0px;
+}
+#logo{
+   width:10%; /* you can use % */
+   min-width: 100px;
+   max-width:175px;
+   height: auto;
+}
+#nav{
+   min-width:995px;
+}
+#nav > ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #D68227;
+   border: 1px solid black;
+}
+li {
+   float:left;
+   border-right: 1px solid black;
+}
+li:last-child{
+   border-right:none;
+   border-left: 1px solid black;
+}
+li a{
+   display: block;
+   color: black;
+   text-align: center;
+   padding: 14px 20px;
+   width:7lvw;
+   min-width:100px;
+   text-decoration: none;
+}
+li a:hover{
+   background-color: #CE6523;
+   color:black;
+} 
+.active {
+  background-color: #FFFFFF;
+  color:#CE6523;
+}
+#userControlled{
+   border-left: 2px solid black;
+   border-right: 3px solid black;
+}
+#adminControlled{
+   border-right: 3px solid black;
+}
+
+/*Footer CSS Styling*/
+
+#footer{
+   height:10%
+   width:100%;
+   background-color: #D68227;
+   text-align:center;
+   font-family:Helvetica;
+   padding:10px;
+   margin-top:auto;
+}
+
 body{
    margin:0px;
+   min-height:100vh;
+   display:flex;
+   flex-direction:column;
+}
+content{
+   font-family:Helvetica;
 }
