@@ -8,13 +8,13 @@
 		</div>
 		<div id="nav">
         	<ul>
-          		<li style="float:left"><a href="">Main Courses</a></li>
-           		<li><a href="">Desserts</a></li>
-           		<li><a href="">Drinks</a></li>
-           		<li><a href="">About Me</a></li>
-           		<li id="userControlled"><a href="">My Recipes</a></li>
-           		<li id="adminControlled"><a href="">Add Recipe</a></li>
-           		<li style="float:right"><a class = "active" href="#login"><b>Login</b></a></li>
+          		<li style="float:left"><a href="mainCourses.php"><b>Main Courses</b></a></li>
+           		<li><a href="desserts.php"><b>Desserts</b></a></li>
+           		<li><a href="drinks.php"><b>Drinks</b></a></li>
+           		<li><a href="aboutMe.php"><b>About Me</b></a></li>
+           		<li id="userControlled"><a href="myRecipes.php"><b>My Recipes</b></a></li>
+           		<li id="adminControlled"><a href="addRecipe.php"><b>Add Recipe</b></a></li>
+           		<li style="float:right"><a class = "active" href="login.php"><b>Login</b></a></li>
          	</ul>
       </div>
 	</body>
