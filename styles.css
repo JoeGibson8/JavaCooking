@@ -73,10 +73,8 @@
    width:100%;
    background-color: #D68227;
    text-align:center;
-   padding:10px;
-   position:fixed;
-   left:0;
-   bottom:0;
+   padding:10px 0px;
+   flex-shrink: 0;
 }
 
 
@@ -87,6 +85,7 @@
    padding: 0px;
    background-color: #F1CB9B;
    height:auto;
+   flex: 1 0 auto;
 }
 
 /*Recipes To Try CSS*/
@@ -121,6 +120,7 @@
    width:30%;
    height:auto;
    min-width:450px;
+   flex:right;
 }
 
 body{
@@ -128,6 +128,10 @@ body{
    padding:0px;
    background-color: #F1CB9B;
    width:100%;
+   height:100%;
+   display:flex;
+
+  flex-direction: column;
 }
 
 *{
