@@ -5,7 +5,7 @@
 	</head>
 	<body>
 		<div id= "logoBar">
-			<a href="index.php"><img src="JavaCookingLogo.png" id="logo"></a>
+			<a href="index.php"><img src="images\JavaCookingLogo.png" id="logo"></a>
 		</div>
 		<div id="nav">
         	<ul>
