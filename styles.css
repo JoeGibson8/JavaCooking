@@ -212,6 +212,7 @@
    background:#F5F5F5;
    height:90%;
    border:2px solid #D68227;
+   overflow-x: hidden
 }
 .gridContainer ul{
    list-style-type: none;
